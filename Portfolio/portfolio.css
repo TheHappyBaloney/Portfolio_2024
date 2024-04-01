@@ -1,0 +1,40 @@
+body {
+    background-color: #9E7BB5;
+    font-family: "Alatsi", sans-serif;
+}
+
+.navbar {
+    background-color: #630436;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 300px;
+    padding-left: 0 100px;
+    padding-right: 0 100px;
+}
+
+.alatsi-regular {
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.navbar a {
+    color: #F2F3F4;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
