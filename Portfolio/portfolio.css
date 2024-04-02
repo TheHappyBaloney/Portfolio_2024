@@ -1,10 +1,10 @@
 body {
-    background-color: #9E7BB5;
+    background-color: #0E0F0F;
     font-family: "Alatsi", sans-serif;
+
 }
 
 .navbar {
-    background-color: #630436;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -35,6 +35,28 @@ body {
 }
 
 .navbar a:hover {
+    color: #9E7BB5;
+    text-decoration: blanchedalmond;
     font-weight: bold;
-    text-decoration: underline;
+}
+
+.hi {
+    text-align: left;
+    color: #f2f3f4;
+    font-size: 60px;
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+.name {
+    text-align: left;
+    color: #630436;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+.img {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
